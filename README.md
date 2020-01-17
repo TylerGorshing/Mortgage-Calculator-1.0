@@ -66,8 +66,8 @@ Probably the best thing I can do to improve my coding skills moving forward is g
 1. Basic code improvements:
     - Use custom classes and function definitions to help clean up redundant code
     - Use more comments and docstings to explain not only the different parts of the code, but also how the code works
-    -Make use of name spaces and global variables to better organize monthly data and cumulative data
-    -Include error handling to deal with silly human behavior
+    - Make use of name spaces and global variables to better organize monthly data and cumulative data
+    - Include error handling to deal with silly human behavior
 
 2. Functionality Improvements for the next version:
     - Add a GUI that accepts user input and displays the output of the program
