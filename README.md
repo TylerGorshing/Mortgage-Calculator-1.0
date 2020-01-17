@@ -14,6 +14,12 @@ Generally, I like to have learning goals in mind for a project. The following ar
 - Become more comfortable writing code in the Python language by creating a simple program that is usable and has a clear function
 - Learn how to write data to a text file using the `with` keyword and a context manager
 
+## About the Code
+
+I’m writing this README several months after completing this project, and looking back, I can see how far I’ve come as a programmer. The code above is very simple. The only way to run the program is to navigate to the appropriate directory and running the code in the terminal. There’s no python version number specified, there’s no error handling, and the program probably has floating point rounding errors. The program doesn't even have a single function definition or custom classes. It simply runs the code from top to bottom and hopes the user can provide the correct input.
+
+I did, however, achieve my learning goals. This program uses both a `for` loop and a `while` loop, `if…else` conditional statements, and string formatting. It has a clear purpose, and is functional. There is also a context manager that opens and writes data to a file using the `with` keyword. I didn’t fully understand context managers at the time, but at least I was using them to accomplish tasks in a program.
+
 ## Running the Program
 
 Running the program requires navigating to the correct directory in the terminal launching the program with the `python` or `python3` command, depedning on how your environment is set up. Upon launch, the user is asked for input, the program then calculates some values and saves the output to a text file in the same directory.
@@ -63,13 +69,7 @@ The text file contains information for each monthly payment (without any roundin
 
 Probably the best thing I can do to improve my coding skills moving forward is getting feedback from knowledgeable people. Without external feedback, I don’t really know if my code is good or bad, and I don’t really know the best places to focus my efforts. Other than that, here are a few other areas I could improve the program.
 
-1. Basic code improvements:
-    - Use custom classes and function definitions to help clean up redundant code
-    - Use more comments and docstings to explain not only the different parts of the code, but also how the code works
-    - Make use of name spaces and global variables to better organize monthly data and cumulative data
-    - Include error handling to deal with silly human behavior
-
-2. Functionality Improvements for the next version:
-    - Add a GUI that accepts user input and displays the output of the program
-    - Output a CSV file using the csv package in the Python Standard Library instead of a messy text file
-    - Use the Matplotlib package to create charts and graphs from the calculated data to better organize the information for the user
+- Use custom classes and function definitions to help clean up redundant code
+- Use more comments and docstings to explain not only the different parts of the code, but also how the code works
+- Make use of name spaces and global variables to better organize monthly data and cumulative data
+- Include error handling to deal with silly human behavior
