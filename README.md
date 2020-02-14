@@ -1,24 +1,19 @@
 # Mortgage Calculator
-A python learning project to calculate information about a mortgage.
+My first real program in Python.
 
 ## About this Project
 
-This was one of the first projects on my journey to learn Python. Someone I know was in the process of buying a house, so I decided to build a mortgage calculator that can calculate various values relevent to a mortgage. I also wanted this program to be able to calculate how much money can be saved in interest by paying an extra amount each month. 
+This was one of the first projects on my journey to learn Python. Someone I know was in the process of buying a house, so I decided to build a mortgage calculator that can calculate some values relevent to a mortgage. I also wanted this program to be able to calculate how much money can be saved in interest by paying an extra amount each month. 
 
-This project is very simple and needs to be run in the commmand line. Upon launch, the user will be asked some questions about a mortgage then the program creats a .txt file with the results of the calculations.
+This being one of my first projects, there are several rookie mistakes. For example, there's no error handling. If the user provides an invalid input, the whole program crashes. I also use a float value to represent money –– a big no no.
 
 ## Project Learning Goals
 
-Generally, I like to have learning goals in mind for a project. The following are specific things that I wanted to learn while working on the project.
+Generally, I like to have learning goals in mind for a project. The following are specific things that I wanted to learn while working on the project. 
 
 - Become more comfortable writing code in the Python language by creating a simple program that is usable and has a clear function
 - Learn how to write data to a text file using the `with` keyword and a context manager
-
-## About the Code
-
-I’m writing this README several months after completing this project, and looking back, I can see how far I’ve come as a programmer. The code above is very simple. The only way to run the program is to navigate to the appropriate directory and running the code in the terminal. There’s no python version number specified, there’s no error handling, and the program probably has floating point rounding errors. The program doesn't even have a single function definition or custom classes. It simply runs the code from top to bottom and hopes the user can provide the correct input.
-
-I did, however, achieve my learning goals. This program uses both a `for` loop and a `while` loop, `if…else` conditional statements, and string formatting. It has a clear purpose, and is functional. There is also a context manager that opens and writes data to a file using the `with` keyword. I didn’t fully understand context managers at the time, but at least I was using them to accomplish tasks in a program.
+- Use the git command line utility to commit changes and push those changes to a reposity on GitHub
 
 ## Running the Program
 
@@ -69,7 +64,7 @@ The text file contains information for each monthly payment (without any roundin
 
 Probably the best thing I can do to improve my coding skills moving forward is getting feedback from knowledgeable people. Without external feedback, I don’t really know if my code is good or bad, and I don’t really know the best places to focus my efforts. Other than that, here are a few other areas I could improve the program.
 
-- Use custom classes and function definitions to help clean up redundant code
-- Use more comments and docstings to explain not only the different parts of the code, but also how the code works
+- Don't use floats to represent currency
+- Use custom classes and function definitions to clean up some redundant code
 - Make use of name spaces and global variables to better organize monthly data and cumulative data
 - Include error handling to deal with silly human behavior
